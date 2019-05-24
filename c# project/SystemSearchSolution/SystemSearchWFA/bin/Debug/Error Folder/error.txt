@@ -1,0 +1,6 @@
+
+User is not found! Please check your inputs!:4/9/2019 18:57:24
+System.ArgumentOutOfRangeException: Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at SystemSearchWFA.MainForm.clearTxt() in C:\Users\code\Desktop\c# project\SystemSearchSolution\SystemSearchWFA\MainForm.cs:line 125:4/9/2019 21:07:32

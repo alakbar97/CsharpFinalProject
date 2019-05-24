@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d453607c0b464241b2daa128c227637b" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="SearchSystemModel.BloodGroup" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SearchSystemModel.EyeColor" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SearchSystemModel.Gender" Width="1.5" PointX="6.125" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SearchSystemModel.MaritalStatu" Width="1.5" PointX="6" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SearchSystemModel.MilitaryStatu" Width="1.5" PointX="6.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SearchSystemModel.Nationality" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="SearchSystemModel.Person" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SearchSystemModel.Role" Width="1.5" PointX="8.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SearchSystemModel.sysdiagram" Width="1.5" PointX="11.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SearchSystemModel.User" Width="1.5" PointX="11.375" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="SearchSystemModel.FK__Person__BloodGro__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="SearchSystemModel.FK__Person__EyeColor__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="SearchSystemModel.FK__Person__GenderID__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="SearchSystemModel.FK__Person__MaritalS__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="SearchSystemModel.FK__Person__Military__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="SearchSystemModel.FK__Person__National__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="SearchSystemModel.FK__User__RoleID__44FF419A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
